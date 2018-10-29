@@ -31,4 +31,10 @@ complete the counter service to return a defualt value
 
 complete the test 
 
+Add support for Entity Framework Core
+Add DbContext and an Entity
+
+config Startup file  
+
+
 
