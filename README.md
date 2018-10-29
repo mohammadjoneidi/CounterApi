@@ -15,3 +15,6 @@ Add the current api to sln
 -- dotnet sln add .\CounterApi\CounterApi.csproj
 
 
+Next step is Creating the test project with .core CLI
+create the CounterApi.Tests directory
+-- dotnet new xunit. 
