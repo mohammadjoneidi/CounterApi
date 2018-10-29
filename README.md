@@ -25,3 +25,10 @@ adding the reference of api project
 adding the test project to sln
 --dotnet sln add .\CounterApi.Tests\CounterApi.Tests.csproj
 
+create first test project and implement the basic code which return error in test project
+
+complete the counter service to return a defualt value 
+
+complete the test 
+
+

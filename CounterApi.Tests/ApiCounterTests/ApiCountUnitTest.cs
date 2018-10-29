@@ -1,15 +1,22 @@
-using System;
+using CounterApi.Services;
 using Xunit;
 
 namespace CounterApi.Tests
 {
     public class CounterServiceTest
-    {       
+    {     
+        private readonly CounterService _counterService;
+
+        public CounterServiceTest()
+        {
+            _counterService = new CounterService();
+        } 
 
         [Fact]
         public void ShouldBeAbleToRetrieveTheCounter()
         {
-           throw new NotImplementedException("Please create a test first");
+           var result =  _counterService.GetCounterValue();
+           Assert.True(result ==0,"The resualt is not retrived");
         }
       
     }

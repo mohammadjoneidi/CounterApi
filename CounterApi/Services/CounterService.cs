@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading.Tasks;
 
 namespace CounterApi.Services
 {
@@ -8,6 +9,11 @@ namespace CounterApi.Services
         {
             
         }
-        
+
+        public int GetCounterValue()
+        {
+            return 0;
+        }
+
     }
 }
