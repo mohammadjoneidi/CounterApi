@@ -37,4 +37,7 @@ Add DbContext and an Entity
 config Startup file  
 
 
+dotnet ef migrations add InitialCreate
+dotnet ef database update
+
 

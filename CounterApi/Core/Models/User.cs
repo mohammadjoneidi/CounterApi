@@ -1,5 +1,5 @@
 
-namespace CounterApi.Models
+namespace CounterApi.Core.Models
 {
     public class User
     {
